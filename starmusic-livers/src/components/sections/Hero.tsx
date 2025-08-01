@@ -4,7 +4,7 @@ import { Hero1 } from './Hero1'
 import { Hero2 } from './Hero2'
 
 export function Hero() {
-  const [currentPattern, setCurrentPattern] = useState<1 | 2>(1)
+  const [currentPattern, setCurrentPattern] = useState<1 | 2>(2)
 
   return (
     <div className="relative">
